@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Applying Style Based on Media Type</title>
+		<!-- 
+		media="screen" 
+		the default setting. ideal for desktops, laptops, most tablets
+		-->
+		<link	href="css/screen_style.css"
+				rel="stylesheet"
+				type="text/css"
+				media="screen"	/>
+
+		<!--
+		media="print"
+		provides an opportunity to style specially 
+		for printing the web page
+		-->
+		<link	href="css/printer_style.css"
+				rel="stylesheet"
+				type="text/css"
+				media="print"	/>
+
+	</head>
+	<body>
+	<h1>The Link 'media' Attribute</h1>
+	<p>This page demonstrates using <code>media="type"</code>. Try sending this page to printer preview... </p>
+	<p>Examine the source code of this page...</p>
+
+<p id="screen">Styled for screen</p>
+<p id="print">Styled for print</p>
+	</body>
+</html>

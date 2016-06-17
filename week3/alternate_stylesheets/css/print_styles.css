@@ -1,0 +1,25 @@
+body{
+	font-family:verdana, sans-serif;
+	font-size:90%;
+	background-color:yellow;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:5px;
+	font-family:"Arial", serif;
+	font-weight: bold;
+	line-height:125%;
+}
+header{
+	background-color:#C9F76F;
+	padding:1px;
+	display:block;
+}
+section{
+	background-color:#24BFF2;
+	display:block;
+	padding:10px;
+}
+aside{
+	display:block;
+	padding:5px;
+}

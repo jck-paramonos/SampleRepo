@@ -1,0 +1,7 @@
+/* if using a screen device, hide print style */
+#screen{
+
+}
+#print{
+	display:none;
+}
